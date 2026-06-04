@@ -1,0 +1,101 @@
+.contactpage{
+    background-color: #f8c668;
+    
+    
+}
+.contacthead{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: 500;
+    padding-top: 5px;
+    
+   
+}
+.contactpara{
+    text-align: center;
+    font-size: 20px;
+    margin-top: -15px;
+
+}
+.contactform{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 25px;
+    
+}
+.contactform input,textarea{
+    text-align: center;
+    width:100%;
+    max-width: 600px;
+    padding:20px ;
+    border: 1px solid #ccc;
+    outline: none;
+
+}
+.contactform textarea{
+    width:100%;
+    max-width: 600px;
+    height: 55px;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 200;
+    resize: none;
+}
+.contactform button{
+    align-items: center;
+    width: 150px;
+    padding: 15px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.contactform input:hover,
+.contactform textarea:hover {
+    border: 1px solid black;   /* 🔥 on hover */
+}
+.contactform button:hover{
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+.success-msg{
+    color: green;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.error-msg{
+    color: red;
+    margin-top: 10px;
+}
+@media (max-width:768px) {
+
+    .contacthead{
+        font-size: 25px;
+
+        padding: 0 20px;
+
+        padding-top: 10px;
+    }
+
+    .contactpara{
+        font-size: 17px;
+
+        padding: 0 20px;
+    }
+
+    .contactform input,
+    .contactform textarea{
+
+        max-width: 250px;
+
+        padding: 15px;
+    }
+
+    .contactform button{
+        width: 130px;
+    }
+
+}

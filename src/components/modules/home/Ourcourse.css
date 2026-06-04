@@ -1,0 +1,257 @@
+.heading{
+    text-align: center;
+    margin-top: -10px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.courseimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 320px;
+   
+   
+}
+.courseimg img{
+    align-items: center;
+    width:380px;
+    height: 460px;
+    border-radius: 10px;
+    
+}
+.courseimg .img2{
+    width: 320px;
+}
+.parahead{
+    font-size: 25px;
+    padding-left: 150px;
+   
+    font-weight: 500;
+    margin-bottom: 2px;
+    
+}
+.midhead{
+    padding-left: 180px;
+   
+    
+}
+.parah{
+    font-size: 21px;
+    font-weight: 500;
+}
+.lowercontainer{
+    max-width: 1100px;
+   margin: 25px auto 0;
+   padding-right: 150px;
+}
+.lowerhead1{
+    font-size: 24px;
+    font-weight: 500;
+}
+.course-section{
+    display: flex;
+    gap: 50px;
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 0px 60px;
+    align-items: flex-start;
+}
+
+.course-left img{
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    
+}
+/* .course-right{
+    flex: 1;
+    font-size: 22px;
+    line-height: 1.4;
+} */
+
+.course-right p{
+    margin: 4px 0;
+}
+
+.course-right h3{
+    font-size: 20px;
+    margin: 10px 0 5px;
+}
+.course-section2{
+    display: flex;
+    gap: 50px;
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 0px 15px;
+    align-items: flex-start;
+}
+.course-left2 img{
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+
+}
+.course-right2 p{
+    width: 100%;
+    margin: 4px 0;
+    line-height: 1.2;
+    max-width: none;
+    font-size: 17px;
+}
+.course-right2 h4{
+    font-size: 20px;
+    margin: 10px 0 5px;
+}
+.course-right2{
+    flex: 1;
+    max-width: 1700px;
+    
+}
+.course-section1{
+    display: flex;
+    gap: 50px;
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 0px 20px;
+    align-items: flex-start;
+}
+
+.course-left1 img{
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.course-right1 p{
+    margin: 2px 0;
+    line-height: 1.3;
+}
+
+.course-right1 h4{
+    font-size: 20px;
+    margin: 10px 0 5px;
+}
+@media (max-width: 768px){
+
+    .heading{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .courseimg{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .courseimg img,
+    .courseimg .img2{
+        width: 90%;
+        max-width: 320px;
+        height: auto;
+    }
+
+    .parahead{
+        font-size: 20px;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .midhead{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .parah{
+        font-size: 18px;
+    }
+
+    .lowercontainer{
+        max-width: 100%;
+        padding: 0 15px;
+        margin: 20px auto;
+    }
+
+    .lowerhead1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .course-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px auto;
+        padding: 0 15px;
+        max-width: 100%;
+    }
+
+    .course-left img{
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+
+    .course-right{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .course-right p{
+        font-size: 16px;
+        line-height: 1.6;
+        margin: 5px 0;
+    }
+
+    .course-right h3{
+        font-size: 18px;
+    }
+
+    .course-section1,
+    .course-section2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px auto;
+        padding: 0 15px;
+        max-width: 100%;
+    }
+
+    .course-left1 img,
+    .course-left2 img{
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .course-right1,
+    .course-right2{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .course-right1 p,
+    .course-right2 p{
+        font-size: 16px;
+        line-height: 1.6;
+        margin: 5px 0;
+        width: 100%;
+    }
+
+    .course-right1 h4,
+    .course-right2 h4{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,138 @@
+.about{
+    background-image:
+    url(../../../assets/bgbuddha.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     padding: 40px 10%;    
+}
+.head1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 23px;
+    margin-top: 2%;   
+}
+.para2{
+    text-align: center;
+    font-size: 19px;
+}
+.head2{
+    text-align: center;
+    font-weight: 450;
+    font-size: 20px;
+}
+.para3{
+    font-size: 19px;
+}
+/* .underlinemiddle{
+    display: flex;
+    margin: 20px auto; */
+
+.head3{
+    text-align: center;
+}
+.para4{
+    font-size: 19px;
+}
+.para5{
+    font-size: 18px;
+}
+.para6{
+    font-size: 18px;
+}
+.para7{
+    font-size: 18px;
+}
+@media (max-width:768px){
+
+    .about{
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 30px 22px;
+    }
+
+    .head1,
+    .head2,
+    .head3{
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .para2,
+    .para3,
+    .para4,
+    .para5,
+    .para6,
+    .para7{
+        font-size: 15px;
+        line-height: 1.8;
+        text-align: center;
+    }
+
+    .aboutus{
+        padding: 0 15px;
+    }
+
+    .aboutus h1{
+        font-size: 24px;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .aboutus p{
+        font-size: 16px;
+        line-height: 1.7;
+        text-align: left;
+    }
+
+    .midhead,
+    .midhead1{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .aboutus1{
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .subhead{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .aboutuspara,
+    .aboutcontent{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        margin-left: 0 !important;
+    }
+
+    .whylist,
+    .focuslist,
+    .uniquelist{
+        padding-left: 25px !important;
+        margin-left: 0 !important;
+        width: 100%;
+    }
+
+    .whylist li,
+    .focuslist li,
+    .uniquelist li{
+        font-size: 16px;
+        line-height: 1.8;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .contentpara{
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .demo-link{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,100 @@
+.testupperhead{
+    text-align: center;
+    margin-top: 30px;
+}
+.testupperhead h1{
+    color:rgb(255, 69,0);
+    font-size: 27px;
+    font-weight: 500;
+
+
+}
+.testupperhead .para1{
+    color: gray;
+    font-size: 17px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+.testomonialbox{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 6px 40px;
+    margin: 8px 50px;
+}
+.imagediv1 img{
+    width: 140px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.imagediv1 h3{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.paradiv1 p{
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: left;
+    margin-top: 30px;
+}
+.paradiv4 p{
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: left;
+    margin-top: 50px;
+}
+.paradiv5 p{
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: left;
+    margin-top: 50px;
+}
+@media (max-width: 768px){
+
+    .testupperhead{
+        padding: 0 15px;
+    }
+
+    .testupperhead h1{
+        font-size: 22px;
+    }
+
+    .testupperhead .para1{
+        font-size: 15px;
+    }
+
+    .testomonialbox{
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+        margin: 20px 10px;
+        text-align: center;
+    }
+
+    .imagediv1{
+        width: 100%;
+    }
+
+    .imagediv1 img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .imagediv1 h3{
+        font-size: 16px;
+    }
+
+    .paradiv1{
+        width: 100%;
+    }
+
+    .paradiv1 p{
+        font-size: 15px;
+        line-height: 1.6;
+        text-align: center;
+        margin-top: 0;
+    }
+}

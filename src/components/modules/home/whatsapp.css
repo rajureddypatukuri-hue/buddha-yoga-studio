@@ -1,0 +1,172 @@
+.whatsapp-btn{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    color: white;
+    border-radius: 50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:35px;
+    cursor:pointer;
+    z-index:9999;
+}
+
+.chat-box{
+    position: fixed;
+    right: 20px;
+    bottom: 95px;
+    width: 320px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    z-index:9999;
+}
+
+.chat-header{
+    background:#25D366;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.chat-body{
+    padding:15px;
+    font-size: 14px;
+}
+
+.send-btn{
+    display:block;
+    text-align:center;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    border-radius:10px;
+    margin-top:15px;
+    font-size: 13px;
+}
+.quick-messages{
+    margin-top: -20px;
+       padding: 0 19px;
+}
+
+.quick-messages p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.quick-btn{
+    display: block;
+    width: 95%;
+    text-align: center;
+    background: #f1f1f1;
+    color: #000;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    font-size: 13px;
+}
+
+.quick-btn:hover{
+    background: #e0e0e0;
+}
+.reply-text{
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    color: white;
+    opacity: 0.9;
+}
+.message-box{
+    border: 1px solid #cfcfcf;
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.chat-header{
+    display: flex;
+    background: #25D366;
+    color: white;
+    padding: 10px;
+}
+
+.chat-header h3{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.reply-text{
+    margin: 4px 0 0 0;
+    font-size: 13px;
+    color: white;
+    opacity: 0.9;
+}
+
+.close-btn{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    font-size: 22px;
+}
+@media (max-width: 768px){
+
+    .whatsapp-btn{
+        width: 55px;
+        height: 55px;
+        font-size: 30px;
+        right: 15px;
+        bottom: 15px;
+    }
+
+    .chat-box{
+        width: 380px;
+        height: 500px;
+        right: 5%;
+        left: 9%;
+        bottom: 90px;
+
+    }
+
+    .chat-header h3{
+        font-size: 16px;
+    }
+
+    .reply-text{
+        font-size: 12px;
+    }
+
+    .message-box{
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .send-btn{
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .quick-btn{
+        width: 90%;
+        margin: 0 auto 10px;
+        font-size: 14px;
+    }
+
+    .quick-messages p{
+        font-size: 16px;
+    }
+   
+}

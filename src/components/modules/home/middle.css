@@ -1,0 +1,53 @@
+.middlehead{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 32px;
+    font-weight: 500;
+   
+}
+.certificates{
+    display: grid;
+    grid-template-columns: repeat(3,330px);
+    gap: 30px;
+    /* margin-left: 230px; */
+    justify-content: center;
+    margin: 0 auto;
+    
+  
+
+    /* max-width: 200px; */
+    
+   
+
+}
+.certificates img:last-child {
+    grid-column: 2 / 3;   /* 🔥 places it in middle column */
+}
+.certificates img{
+    width: 330px;
+    height: 430px;
+    border: 1px solid black;
+    transition:transform 0.3 ease;
+    
+    
+   
+}
+.certificates img:hover {
+    transform: translateY(-10px);      /* 🔥 move up */
+}
+@media (max-width: 768px) {
+
+    .certificates {
+        grid-template-columns: 1fr; 
+        justify-items: center;
+       
+    }
+
+    .certificates img:last-child {
+        grid-column: auto;   /* reset */
+    }
+
+    .certificates img {
+        height: auto;
+    }
+}

@@ -1,0 +1,57 @@
+.innerhero{
+    margin-top: 30px;
+}
+
+.cardscontainer{
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+.innerhero img{
+    width: 350px;
+    height: 220px;
+
+    border-radius: 8px;
+
+    object-fit: cover;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.card .headtag{
+    font-size: 19px;
+
+    margin-top: 10px;
+
+    font-weight: 400;
+
+    text-align: center;
+}
+
+.card button{
+    padding: 8px 14px;
+
+    border-color: red;
+
+    cursor: pointer;
+}
+
+.para1{
+    text-align: center;
+
+    margin-top: 40px;
+
+    font-size: 20px;
+
+    padding: 0 20px;
+}

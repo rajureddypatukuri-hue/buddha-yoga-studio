@@ -1,0 +1,141 @@
+.aboutus{
+    text-align: center;
+    margin-top: 10px;
+    
+
+}
+.aboutus h1{
+    color:rgb(255, 69,0);
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.aboutus p{
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 880px;
+    margin: 0 auto ;
+    margin-bottom: 20px;
+}
+.aboutuspara{
+text-align: left;
+}
+.aboutuspara .midhead{
+    font-size: 22px;
+    font-weight: 400;
+}
+.whylist{
+    list-style: none;
+    padding-left: 350px;
+}
+.whylist li {
+    font-size: 16px;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 25px;
+}
+.whylist li::before{
+
+    content: "›";
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    color: black;
+
+    font-size: 24px;
+
+    top: -2px;
+}
+.aboutuspara .midhead1{
+    font-size: 22px;
+    font-weight: 400;
+    padding-right: 30px;
+
+}
+.aboutus1 {
+    font-size: 12px;
+    line-height: 1.7;
+    max-width: 880px;
+    margin: 0 auto ;
+    margin-bottom: 20px;
+}
+.aboutcontent{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px 25px;
+}
+
+.subhead{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.contentpara{
+    font-size: 16px;
+    line-height: 1.9;
+    margin-top: 20px;
+}
+
+.focuslist,
+.uniquelist{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.focuslist li,
+.uniquelist li{
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 14px;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+/* black dot */
+.focuslist li::before{
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 22px;
+}
+
+/* arrow symbol */
+.uniquelist li::before{
+    content: "›";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    font-size: 24px;
+}
+
+.demolink{
+    color: purple;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media(max-width:768px){
+
+    .aboutcontent{
+        padding: 20px;
+    }
+
+    .subhead{
+        font-size: 22px;
+        line-height: 1.5;
+    }
+
+    .contentpara,
+    .focuslist li,
+    .uniquelist li{
+        font-size: 17px;
+        line-height: 1.8;
+    }
+}
