@@ -6,7 +6,7 @@ import slideimage1 from '../../../../assets/slideimage1.jpg'
 import slideimage2 from '../../../../assets/slideimage2.jpg'
 import slideimage3 from '../../../../assets/slideimage3.jpg'
 import undelineimage from '../../../../assets/download.png'
-import Innerhero from './Innerhero'
+
 
 const Hero = () => {
     const slides=[slideimage1,slideimage2,slideimage3]

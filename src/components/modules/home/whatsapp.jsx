@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaWhatsapp, FaTimes } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import "./whatsapp.css";
 
 const Whatsapp = () => {

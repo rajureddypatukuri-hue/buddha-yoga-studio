@@ -1,11 +1,9 @@
-import React from 'react'
 import Hero from './hero/Hero'
-import Navbar from '../navbar/Navbar'
 import Innerhero from './hero/Innerhero'
 import About from './About'
-import VideoPage from './VideoPage'
+import Videopage from './VideoPage'
 import Middle from './Middle'
-import ContactPage from './contactpage'
+import ContactPage from "./ContactPage";
 import Footer from './Footer'
 
 const Home = () => {
@@ -15,7 +13,7 @@ const Home = () => {
     <Hero/>
     <Innerhero/>
     <About/>
-    <VideoPage/>
+    <Videopage/>
     <Middle/>
     <ContactPage/>
     <Footer/>

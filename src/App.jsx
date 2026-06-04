@@ -1,8 +1,7 @@
-import React from 'react'
-import { Routes , Route, BrowserRouter} from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 import Home from './components/modules/home/Home'
 import Aboutus from './components/modules/home/Aboutus'
-import Middle from './components/modules/home/Middle'
+
 import Footer from './components/modules/home/Footer'
 import ContactPage from './components/modules/home/ContactPage'
 import Gallery from './components/modules/home/Gallery'

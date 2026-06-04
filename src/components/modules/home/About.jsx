@@ -1,6 +1,4 @@
 import "./about.css";
-import underlineimage from "../../../assets/download.png";
-
 const About = () => {
   return (
     <div className="about">
@@ -26,11 +24,6 @@ const About = () => {
         the best version of yourself. Whether your goal is fitness, stress
         relief, or inner peace, your transformation begins here.
       </p>
-      {/* <img
-        className="underlinemiddle"
-        src={underlineimage}
-        alt="underlineimage"
-      /> */}
       <h2 className="head3">
         Buddha Yoga Studio – LIFE SCHOOL FOR BETTER LIVING
       </h2>

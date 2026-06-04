@@ -1,4 +1,3 @@
-import React from "react";
 import "./innerhero.css";
 import pic1 from "../../../../assets/pic1.jpg";
 import pic2 from "../../../../assets/pic2.jpg";

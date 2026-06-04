@@ -1,4 +1,4 @@
-import './gallery.css';
+import "./Gallery.css";
 import gal1 from '../../../assets/gal1.jpeg'
 import gal2 from '../../../assets/gal2.jpg'
 import gal3 from '../../../assets/gal3.jpeg'
