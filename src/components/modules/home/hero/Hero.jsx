@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import hero from'../../../../assets/bg-Ckggb7Wl.jpg'
+import hero from'../../../../assets/bg-Ckggb7WL.jpg'
 import './hero.css'
 import herologo from'../../../../assets/herologo.png'
 import slideimage1 from '../../../../assets/slideimage1.jpg'
