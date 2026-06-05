@@ -20,12 +20,12 @@ const Hero = () => {
   }, [])
     
     return (
-   <div className='herosec'>
+   <div className='hero'>
    <img className='heroimg' src={hero} alt="herobg" />
    <img className='herologo' src={herologo} alt="herologo" />
    <h1 className='headline'>Find Your Inner Peace at     <br />   
        Buddha Yogo Studio</h1>
-       <p className="">Experience yogo in its purest form - a balance of body,breath,and mindfulness.</p>
+       <p className="hero-para">Experience yogo in its purest form - a balance of body,breath,and mindfulness.</p>
          <div className="slider">
         <img src={slides[current]} alt="slider" />
         
