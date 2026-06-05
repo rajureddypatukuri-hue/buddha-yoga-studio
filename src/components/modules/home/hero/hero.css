@@ -73,12 +73,12 @@ margin-top: 30px;
 }
 @media(max-width :768px){
     .hero{
-        position: absolute;
+        position: relative;
        
        
     }
     .heroimg{
-        width: 120%;
+        width: 100%;
         height: auto;
         object-fit: cover;
     }
@@ -90,14 +90,14 @@ margin-top: 30px;
         margin-top:20px;
     }
     .headline{
-        top: 26%;
+        top: 22%;
         font-size: 22px;
-        width: 70%;
+        width: 80%;
         align-items: center;
         
     }
      .herosec p{
-         top: 32%;  
+         top: 52%;  
         font-size: 13px;
         width: 75%;
         text-align: center;

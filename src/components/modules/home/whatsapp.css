@@ -125,11 +125,11 @@
 @media (max-width: 768px){
 
     .whatsapp-btn{
-        width: 55px;
-        height: 55px;
-        font-size: 30px;
-        right: 15px;
-        bottom: 15px;
+        position: fixed;
+        right: 20px;
+        bottom: 80px;
+        z-index: 99999;
+   
     }
 
     .chat-box{
