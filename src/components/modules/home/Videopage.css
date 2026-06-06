@@ -1,15 +1,22 @@
+.videopage{
+    width:100%;
+    max-width:100%;
+    overflow-x:hidden;
+}
 .videowrapper{
     display: flex;
     justify-content: center;
-    width: 500px;
+    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
-    
+    overflow: hidden;
 }
 .videowrapper video{
-
-    width: 700px;
-    margin-top: 90px;
+    width: 100%;
+    max-width: 700px;
     height: auto;
+    margin-top: 90px;
+    display: block;
 }
 .videotext{
     margin: 30px auto;
@@ -41,23 +48,25 @@
 }
 
 .videowrapper2 {
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     height: auto;
-    margin-right: 40px auto;
-   
+    margin: 0 auto;
 }
 @media(max-width:768px){
-    .videowrapper{
-        width: 100%;
-        padding: 0 15px;
-        display: flex;
-        justify-content: center;
-    }
+   .videowrapper{
+    width: 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
     .videowrapper video{
         width: 100%;
         max-width: 320px;
         margin-top: 10px;
-        margin-right: 27px;
+       
     }
     .videotext{
         text-align: center;
